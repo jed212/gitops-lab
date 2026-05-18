@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: secure-go-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: secure-go-api
+  template:
+    metadata:
+      labels:
+        app: secure-go-api
+    spec:
+      containers:
+        - name: secure-go-api
+          image: ghcr.io/jed212/secure-go-api:1.0
+          ports:
+            - containerPort: 8080
