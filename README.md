@@ -63,7 +63,7 @@ The system works as follows:
 The application is deployed using:
 
 * Kubernetes Deployments
-* Services
+* Services (exposes the deployment)
 
 A local Kubernetes cluster is used for testing via kind.
 
