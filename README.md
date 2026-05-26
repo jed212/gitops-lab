@@ -68,6 +68,9 @@ The application is deployed using:
 A local Kubernetes cluster is used for testing via kind.
 
 
+<img width="863" height="365" alt="image" src="https://github.com/user-attachments/assets/dbc32a25-739b-4f1b-b027-620a48a1a967" />
+
+
 ## Repository Relationship
   
 | Component | Repository |
