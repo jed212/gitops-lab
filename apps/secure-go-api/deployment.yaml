@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: secure-go-api
-          image: ghcr.io/jed212/secure-go-api:480852f-20260526085709
+          image: ghcr.io/jed212/secure-go-api:4f3772d-20260526091338
           ports:
             - containerPort: 8080
 ---
